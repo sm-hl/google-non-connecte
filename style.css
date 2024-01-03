@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700;800;900&family=Montserrat:wght@300;400;600&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Roboto',sans-serif;
+    font-size: 13px;
+}
+/*HEADER*/
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: center;
+    /*width: 40%;*/
+    padding: 6px;
+}
+ul li{
+    margin: 6px 6px 6px 15px;
+/*    padding-right: 20px;*/
+}
+
+li img{
+   width: 25px;
+    opacity: 0.7;
+    padding: 10px;
+/*
+    padding: 5px;
+    margin: 2px;
+*/
+}
+.hover-bg{
+    
+}
+/*items*/
+ul li a,.btn2 a{
+    text-decoration: none;
+    color: #000;
+}
+.hover-word:hover{
+    text-decoration: underline;
+}
+.hover-bg:hover{
+    background-color: #eee;
+    border-radius: 50%;
+/*    padding: 12px;*/
+}
+
+li .connexion{
+    background-color: #1a73e8;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px 25px;
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+.connexion:hover{
+    background-color: blue;
+    box-shadow: 0 2px 2px black;
+}
+
+/*SECTION*/
+/*
+section img{
+    width: 100px;
+}
+*/
+section .google-logo{
+    width: 20%;
+}
+.input{
+    width: 100%;
+/*    opacity: 0.2;*/
+    border-radius: 25px;
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+input{
+    border: none;
+    margin: 0 40px 0 25px;
+    outline: none;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*form*/
+form{
+    position: relative;
+}
+.icons{
+/*
+    position: absolute;
+    bottom: 25px;
+*/
+    margin: 0 10px;
+    width: 100%;
+}
+.icons img{
+    width: 20px;
+}
+.icons .icon1{
+    opacity: 0.4;
+    width: 15px;
+    position: absolute;
+    top: 13px;
+    left: 14px;
+}
+.icons .icon2{
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.icon2 .icon2-1{
+    margin-right: 12px;
+}
+/*boutton*/
+.btns{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+.btns button{
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+}
+.btns button:hover{
+    border-color: #ddd;
+}
+.btn1{
+    margin-right: 5px;
+}
+.btn2{
+    margin-left: 5px;
+}
+/*google-dispo*/
+.google-dispo{
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+}
+.google-dispo a{
+    text-decoration: none;
+}
+.google-dispo a:hover{
+    text-decoration: underline;
+}
+/*footer*/
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #f8f9fa;
+}
+footer div{
+    padding: 10px 0;
+}
+.footer2{
+    display: flex;
+    justify-content: space-between;
+}
+.footer1{
+    padding-left: 12px;
+    border-bottom: 1px solid #ddd;
+}
+.footer2 a:hover{
+    text-decoration: underline;
+}
